@@ -1,6 +1,6 @@
-from app.scraper import fetch_articles
-from app.markdown_converter import article_to_markdown
-from app.file_writer import save_markdown
+from app.scraper.scraper import fetch_articles
+from app.scraper.markdown_converter import article_to_markdown
+from app.scraper.file_writer import save_markdown
 
 
 def export_articles() -> int:

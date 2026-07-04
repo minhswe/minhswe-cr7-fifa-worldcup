@@ -4,12 +4,12 @@ import requests
 
 load_dotenv()
 BASE_URL = os.getenv("BASE_URL")
-
+MAX_ARTICLES = int(os.getenv("MAX_ARTICLES"))
 
 def fetch_articles():
     articles = []
     current_url = BASE_URL
-    while current_url:
+    while current_url and len(articles) < MAX_ARTICLES:
         print(f"loading from: {current_url}")
         response = requests.get(current_url)
         response.raise_for_status()
@@ -22,4 +22,4 @@ def fetch_articles():
         articles.extend(current_page_articles)
         current_url = data.get("next_page")
 
-    return articles
+    return articles[:MAX_ARTICLES]

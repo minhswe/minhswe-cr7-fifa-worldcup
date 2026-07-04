@@ -1,4 +1,4 @@
-from app.exporter import export_articles
+from app.scraper.exporter import export_articles
 
 def main():
     total = export_articles()

@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ba0867f-17d8-4001-9bb9-353da2c3f60a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/file_writer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/hash_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/markdown_converter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scraper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/uploader.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/exporter.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/scraper/exporter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/file_writer.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/scraper/file_writer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/markdown_converter.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/scraper/markdown_converter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/scraper/scraper.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +37,9 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="3G1t6mv55dwauj5d22II64cLOHu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -67,6 +67,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\programming\opti-signs\knowledge-sync\app\scraper" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -83,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1783150729710</updated>
       <workItem from="1783150731131" duration="4000" />
-      <workItem from="1783150756266" duration="8241000" />
+      <workItem from="1783150756266" duration="15546000" />
     </task>
     <servers />
   </component>

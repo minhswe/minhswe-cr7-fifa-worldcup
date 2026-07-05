@@ -123,7 +123,7 @@ def replace_document(store_name: str, file_path: Path):
     )
 
     if document:
-        print(f"Replacing {file_path.name}")
+        print(f"Updated {file_path.name}")
         delete_document(document.name)
 
     upload_markdown_file(store_name, file_path)

@@ -68,18 +68,18 @@ def run_sync():
                     store.name,
                     markdown_file,
                 )
-                print(f"[UPLOAD] {article['title']}")
+                print(f"[ADDED] {article['title']}")
+                added += 1
             else:
-                print(f"[EXISTS] {article['title']}")
+                print(f"[SKIPPED] {article['title']}")
+                skipped += 1
 
-            update_article_state(
-                state,
-                article_id,
-                updated_at,
-                content_hash,
-            )
-
-            added += 1
+                update_article_state(
+                    state,
+                    article_id,
+                    updated_at,
+                    content_hash,
+                )
 
         # -----------------------------
         # Updated article

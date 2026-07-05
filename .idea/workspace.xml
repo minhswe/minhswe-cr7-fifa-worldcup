@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ba0867f-17d8-4001-9bb9-353da2c3f60a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/github/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/.github/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/github/workflows/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/github/workflows/daily-sync.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/daily-sync.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/daily-sync.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/daily-sync.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +90,7 @@
       <workItem from="1783224648376" duration="33000" />
       <workItem from="1783224697224" duration="4227000" />
       <workItem from="1783232573386" duration="263000" />
-      <workItem from="1783232903483" duration="2777000" />
+      <workItem from="1783232903483" duration="3303000" />
     </task>
     <servers />
   </component>

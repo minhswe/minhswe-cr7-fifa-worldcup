@@ -86,3 +86,44 @@ def upload_markdown_directory(store_name: str):
     print(f"Store          : {store_name}")
     print("Chunking       : Automatic (Gemini File Search)")
     print("=======================================")
+
+def find_document(store_name: str, display_name: str):
+    """
+    Find a document by display name.
+    """
+
+    for document in client.file_search_stores.documents.list(parent=store_name):
+        if document.display_name == display_name:
+            return document
+
+    return None
+
+def delete_document(document_name: str):
+    """
+    Delete a document from the File Search Store.
+    """
+
+    client.file_search_stores.documents.delete(
+        name=document_name,
+        config={
+            "force": True,
+        },
+    )
+
+    print("Deleted document.")
+
+def replace_document(store_name: str, file_path: Path):
+    """
+    Replace an existing document if it already exists.
+    """
+
+    document = find_document(
+        store_name,
+        file_path.stem,
+    )
+
+    if document:
+        print(f"Replacing {file_path.name}")
+        delete_document(document.name)
+
+    upload_markdown_file(store_name, file_path)

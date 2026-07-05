@@ -1,8 +1,8 @@
-from app.scraper.exporter import export_articles
+from app.sync.sync_service import run_sync
+
 
 def main():
-    total = export_articles()
-    print(f"Saved {total} markdown files.")
+    run_sync()
 
 
 if __name__ == "__main__":

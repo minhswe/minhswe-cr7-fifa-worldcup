@@ -6,3 +6,6 @@ __pycache__/
 data/raw/*
 data/markdown/*
 logs/*
+
+.idea/
+*.iml
